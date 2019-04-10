@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.StartRadius = 0   ENT.EndRadius = 512    ENT.DieTime = 1   ENT.ImpactInterval = 0    ENT.MaxImpactsPerTarget = nil    ENT.IgnoreOwner = nil 

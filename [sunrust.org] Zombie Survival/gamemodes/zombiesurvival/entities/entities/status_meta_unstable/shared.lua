@@ -1,0 +1,1 @@
+ENT.Type = "anim" ENT.Base = "status__base"  ENT.Ephemeral = true  function ENT:Initialize()  self.BaseClass.Initialize(self)      local enty = self  if SERVER then  self:CreateSVHook(enty)  end end

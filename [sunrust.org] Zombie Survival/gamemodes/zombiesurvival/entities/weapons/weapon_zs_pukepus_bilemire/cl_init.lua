@@ -1,0 +1,1 @@
+include("shared.lua")  function SWEP:DrawWorldModel() end SWEP.DrawWorldModelTranslucent = SWEP.DrawWorldModel

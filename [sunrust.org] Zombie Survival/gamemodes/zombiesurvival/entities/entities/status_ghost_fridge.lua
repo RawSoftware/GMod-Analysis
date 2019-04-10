@@ -1,0 +1,1 @@
+AddCSLuaFile()  ENT.Type = "anim" ENT.Base = "status_ghost_base"  ENT.GhostModel = Model("models/props_interiors/refrigerator01a.mdl") ENT.GhostRotation = Angle(270, 180, 0) ENT.GhostHitNormalOffset = 38 ENT.GhostEntity = "prop_fridge" ENT.GhostWeapon = "weapon_zs_fridge" ENT.GhostDistance = 256 ENT.GhostLimitedNormal = 0.75 

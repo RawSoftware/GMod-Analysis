@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.NoNails = true ENT.NoBlockExplosions = true  function ENT:HumanHoldable(pl)  return false end 

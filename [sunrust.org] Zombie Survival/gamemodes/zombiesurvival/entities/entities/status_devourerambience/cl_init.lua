@@ -1,0 +1,1 @@
+include("shared.lua")  ENT.RenderGroup = RENDERGROUP_NONE  function ENT:Initialize()  self:DrawShadow(false)   self.AmbientSound = CreateSound(self, "npc/fast_zombie/gurgle_loop1.wav")  self.AmbientSound:PlayEx(1, 26) end  function ENT:OnRemove()  self.AmbientSound:Stop() end  function ENT:Think() end  function ENT:Draw() end 

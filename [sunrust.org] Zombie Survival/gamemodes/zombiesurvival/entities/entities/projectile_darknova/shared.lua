@@ -1,0 +1,1 @@
+ENT.Type = "anim" ENT.RenderGroup = RENDERGROUP_TRANSLUCENT  ENT.ExplodeTime = 8 ENT.SetTime = .75 ENT.Radius = 170

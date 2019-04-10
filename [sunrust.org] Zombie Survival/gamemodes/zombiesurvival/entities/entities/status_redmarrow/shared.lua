@@ -1,0 +1,1 @@
+ENT.Type = "anim" ENT.Base = "status__base"  AccessorFuncDT(ENT, "Duration", "Float", 0) AccessorFuncDT(ENT, "StartTime", "Float", 4)  function ENT:PlayerSet(pl)  self:SetStartTime(CurTime()) end

@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.IgnoreBullets = true ENT.IgnoreMelee = true  util.PrecacheModel("models/props_junk/sawblade001a.mdl") 

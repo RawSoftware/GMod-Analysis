@@ -1,0 +1,1 @@
+AddCSLuaFile()  ENT.Type = "anim" ENT.Base = "status__base"  function ENT:Initialize()  self.BaseClass.Initialize(self)   self:DrawShadow(false)      local enty = self  if SERVER then  self:CreateSVHook(enty)  end end  function ENT:OnRemove()  self.BaseClass.OnRemove(self)   if SERVER then  self:RemoveSVHook(tostring(self))  end end 

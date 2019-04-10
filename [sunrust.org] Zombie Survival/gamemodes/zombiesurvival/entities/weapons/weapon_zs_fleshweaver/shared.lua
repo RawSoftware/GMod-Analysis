@@ -1,0 +1,1 @@
+SWEP.Base = "weapon_zs_fleshcreeper"  SWEP.CanPounce = true 

@@ -1,0 +1,1 @@
+ENT.Type = "anim" ENT.ExplosionDelay = 1 ENT.IgnoreBullets = true ENT.ArmTime = 3  function ENT:SetExplodeTime(time)  self:SetDTFloat(0, time) end  function ENT:GetExplodeTime()  return self:GetDTFloat(0) end  function ENT:ShouldNotCollide(ent)  return ent:IsPlayer() end 

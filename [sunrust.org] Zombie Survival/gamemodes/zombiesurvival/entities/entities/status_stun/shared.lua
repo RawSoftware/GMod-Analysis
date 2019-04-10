@@ -1,0 +1,1 @@
+ENT.Type = "anim" ENT.Base = "status__base"  ENT.Model = Model("models/props_junk/rock001a.mdl")  ENT.Ephemeral = true  function ENT:Initialize()  self.BaseClass.Initialize(self)   self:SetModel(self.Model)  self:SetModelScale(0.5, 0)  self:DrawShadow(false)      local enty = self  if SERVER then  self:CreateSVHook(enty)  end end 

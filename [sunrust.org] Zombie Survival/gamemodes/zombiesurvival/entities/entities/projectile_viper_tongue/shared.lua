@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.DieTime = 2.1  function ENT:SetHitTime(f)  self:SetDTFloat(0, f) end  function ENT:GetHitTime()  return self:GetDTFloat(0) end 

@@ -1,0 +1,1 @@
+include("shared.lua")  CLASS.Icon = "zombiesurvival/killicons/viper" CLASS.IconColor = Color(255, 255, 255)  function CLASS:PrePlayerDraw(pl)  render.SetBlend(0) end  function CLASS:PostPlayerDraw(pl)  render.SetBlend(1) end

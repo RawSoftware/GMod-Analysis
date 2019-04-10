@@ -1,0 +1,1 @@
+include("shared.lua")  local matGlow = Material("effects/yellowflare")  function ENT:Draw()  render.SetBlend(0.7)  self:DrawModel()  render.SetBlend(1)   local pos = self:GetPos()   render.SetMaterial(matGlow)  render.DrawSprite(pos, 15, 5, Color(50, 110, 50))  render.DrawSprite(pos, 5, 15, Color(50, 110, 50)) end

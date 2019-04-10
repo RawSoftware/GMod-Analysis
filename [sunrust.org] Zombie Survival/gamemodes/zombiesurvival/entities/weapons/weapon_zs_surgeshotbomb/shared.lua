@@ -1,0 +1,1 @@
+SWEP.PrintName = "Surgeshot Bomb" SWEP.Description = "A cloud of agility, defence and phase speed boosting gas affecting all humans in the radius."  SWEP.Base = "weapon_zs_basethrown"  SWEP.ShowViewModel = false SWEP.ShowWorldModel = false  SWEP.Primary.Ammo = "surgeshot"  SWEP.MaxStock = 2 

@@ -1,0 +1,1 @@
+ENT.Base = "projectile_babybomb"  ENT.IgnoreBullets = true ENT.IgnoreMelee = true

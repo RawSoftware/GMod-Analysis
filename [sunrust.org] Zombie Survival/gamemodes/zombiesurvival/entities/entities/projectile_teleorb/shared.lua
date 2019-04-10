@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.LifeTime = 3  ENT.IgnoreBullets = true ENT.IgnoreMelee = true

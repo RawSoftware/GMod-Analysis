@@ -1,0 +1,1 @@
+AddCSLuaFile()  ENT.Type = "anim" ENT.Base = "status__base"  ENT.Ephemeral = true  AccessorFuncDT(ENT, "WoundsAmount", "Int", 1)

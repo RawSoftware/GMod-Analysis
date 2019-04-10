@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.IgnoreBullets = true ENT.IgnoreMelee = true  util.PrecacheModel("models/Combine_Helicopter/helicopter_bomb01.mdl")

@@ -1,0 +1,1 @@
+ENT.Type = "anim"  AccessorFuncDT(ENT, "HitTime", "Float", 0) AccessorFuncDT(ENT, "TimeCreated", "Float", 1)  ENT.IgnoreBullets = true ENT.IgnoreMelee = true  util.PrecacheModel("models/combine_helicopter/helicopter_bomb01.mdl") 

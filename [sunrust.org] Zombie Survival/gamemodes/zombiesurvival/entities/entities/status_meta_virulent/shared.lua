@@ -1,0 +1,1 @@
+ENT.Type = "anim" ENT.Base = "status__base"  ENT.Ephemeral = true  function ENT:Initialize()  self.BaseClass.Initialize(self)      local enty = self  if SERVER then  self:CreateSVHook(enty)  self:SetDTInt(1, 0)  self.SpikesRemaining = 10  end end  function ENT:OnRemove()  self.BaseClass.OnRemove(self)   if SERVER then  self:RemoveSVHook(tostring(self))  end end

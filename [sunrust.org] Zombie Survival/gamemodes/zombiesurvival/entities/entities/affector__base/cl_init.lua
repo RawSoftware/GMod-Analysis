@@ -1,0 +1,1 @@
+include("shared.lua")  function ENT:Initialize()  self.StartTime = CurTime() end  function ENT:Think()   self:NextThink(CurTime() + self.ImpactInterval)  return true end  function ENT:Draw()                 end 

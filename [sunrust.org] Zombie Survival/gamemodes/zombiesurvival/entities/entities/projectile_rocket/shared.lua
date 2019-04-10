@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.IgnoreBullets = true ENT.IgnoreMelee = true  util.PrecacheModel("models/weapons/w_missile_closed.mdl") 

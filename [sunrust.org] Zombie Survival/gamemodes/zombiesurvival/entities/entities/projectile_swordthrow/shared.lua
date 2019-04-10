@@ -1,0 +1,1 @@
+ENT.Type = "anim"  AccessorFuncDT(ENT, "End", "Bool", 0)

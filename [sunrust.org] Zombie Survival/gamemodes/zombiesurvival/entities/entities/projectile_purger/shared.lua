@@ -1,0 +1,1 @@
+ENT.Type = "anim" ENT.Heal = 9  ENT.IgnoreBullets = true ENT.IgnoreMelee = true

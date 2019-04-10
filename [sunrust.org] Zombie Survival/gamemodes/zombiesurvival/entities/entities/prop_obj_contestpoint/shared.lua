@@ -1,0 +1,1 @@
+ENT.Type = "anim"  ENT.m_NoNailUnfreeze = true ENT.NoNails = true ENT.EntityDeployable = true  ENT.ModelScale = 0.65  ENT.Radius = 200  AccessorFuncDT(ENT, "CaptureProgress", "Float", 0) AccessorFuncDT(ENT, "CaptureTimeEnd", "Float", 1) AccessorFuncDT(ENT, "CapturePointType", "Int", 0) AccessorFuncDT(ENT, "LastCaptureIncrease", "Int", 1)

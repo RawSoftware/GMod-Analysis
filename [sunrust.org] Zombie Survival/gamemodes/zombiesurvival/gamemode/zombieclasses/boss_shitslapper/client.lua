@@ -1,0 +1,1 @@
+include("shared.lua")  CLASS.Icon = "zombiesurvival/killicons/shit_slapper2"  function CLASS:PrePlayerDraw(pl)  render.SetBlend(0) end  function CLASS:PostPlayerDraw(pl)  render.SetBlend(1) end
